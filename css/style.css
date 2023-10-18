@@ -1,0 +1,54 @@
+.sinborde {
+    border: 0;
+}
+
+body,
+select {
+    font-family: arial, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+input {
+    padding: 3px;
+    margin: 3px;
+}
+
+ul {
+    float: left;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+li {
+    float: left;
+    padding: 12px;
+}
+
+#sugerencias {
+    font-size: 11px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .2);
+    height: auto;
+    position: absolute;
+    z-index: 9999;
+    width: 400px;
+    float: left;
+}
+
+#filtrarProductos {
+    font-size: 11px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .2);
+    height: auto;
+    position: absolute;
+    z-index: 9999;
+    width: 400px;
+    float: left;
+}
+
+#sugerencias .suggest-element {
+    background-color: #EEEEEE;
+    border-top: 1px solid #d6d4d4;
+    cursor: pointer;
+    padding: 8px;
+    width: 400%;
+    float: left;
+}
